@@ -1,0 +1,19 @@
+.header {
+  z-index: 10;
+  position: sticky;
+  top: 0;
+  background-color: #ccc;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  justify-content: flex-end;
+
+  button {
+    background-color: transparent;
+    border: none;
+    color: orangered;
+    cursor: pointer;
+  }
+}
